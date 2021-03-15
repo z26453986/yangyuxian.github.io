@@ -33,17 +33,6 @@ a {
   background-color: transparent;
 }
 
-section.resume-section {
-    display: flex;
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    max-width: 75rem;
-	background-color: #c7baa5;
-}
-
 h1, .h1 {
     font-size: 6rem;
 	color: #495057;
