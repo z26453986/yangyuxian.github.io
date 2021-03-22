@@ -54,3 +54,8 @@ h2, .h2 {
     font-size: 3.5rem;
 	color: #495057;
 }
+
+.fa-ul>li {
+    position: relative;
+	font-size: 1.5rem;
+}
