@@ -59,3 +59,9 @@ h2, .h2 {
     position: relative;
 	font-size: 1.5rem;
 }
+
+a:visited {
+    color:#a8866f;
+	background-color:#d6efff;
+}
+
