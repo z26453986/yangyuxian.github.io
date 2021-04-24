@@ -1,14 +1,14 @@
 body {
-    font-family:'Noto Sans TC', sans-serif;
+    font-family: 'Alegreya', serif;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-   font-family:'Noto Sans TC', sans-serif;
+   font-family: 'Alegreya', serif;
    text-transform:capitalize
 }
 
 .subheading {
-    font-family:'Noto Sans TC', sans-serif;
+    font-family: 'Alegreya', serif;
 	text-transform:capitalize;
 	margin-bottom: 3rem;
 }
