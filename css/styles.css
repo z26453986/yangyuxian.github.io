@@ -1652,15 +1652,21 @@ pre code {
   width: 100%;
   margin-bottom: 1rem;
 }
-.table th,
-.table td {
+.table th{
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  font-size: 17px;
+}
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 3px solid #dee2e6;
+  
 }
 .table tbody + tbody {
   border-top: 2px solid #dee2e6;
@@ -4345,7 +4351,8 @@ input[type=button].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  padding: 1rem;
+  background-color: #e8e0f594;
 }
 
 .card-title {
@@ -4371,7 +4378,7 @@ input[type=button].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color:#9c683e80;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-header:first-child {
