@@ -65,3 +65,58 @@ a:visited {
 	background-color:#d6efff;
 }
 
+.flip-card {
+  background-color: #e8e0f594;
+  width: 450px;
+  height: 430px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-card-2 {
+  background-color: #e8e0f594;
+  width: 450px;
+  height: 590px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-2:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:#e8e0f594;;
+}
+
+.flip-card-back {
+  background-color:#e8e0f594;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+div.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
